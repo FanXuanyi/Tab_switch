@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.box{
+	width: 598px;
+	height: 160px;
+	margin: 10px;
+	border: 1px solid #EEE;
+	overflow: hidden;
+}
+
+.box .titles{
+	height: 36px;
+	position: relative;
+	background-color: #F7F7F7;
+}
+
+.box .titles ul{
+	position: absolute;
+	width: 601px;
+	left: -1px;
+}
+
+.box .titles ul li{
+	float: left;
+	width: 118px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	padding: 0 1px;
+	border-bottom: 1px solid #EEE;
+}
+
+ul li a:link,ul li a:visited{
+	color: #000;
+}
+ul li a:hover{
+	color: #F90;
+}
+
+.box .titles ul li.selected{
+	background-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	padding: 0;
+	font-weight: bolder;
+}
+
+.box .content{
+	margin: 20px 8px 10px 18px;
+}
+
+.box .content ul li{
+	float: left;
+	width: 286px;
+	height: 60px;
+}
